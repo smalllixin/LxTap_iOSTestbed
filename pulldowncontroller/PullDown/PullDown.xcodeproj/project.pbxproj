@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3156B3018E51F6F00482DF3 /* MyPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = A3156B2F18E51F6F00482DF3 /* MyPanGestureRecognizer.m */; };
+		A39FB0CE18E3FF81002AB2D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39FB0CD18E3FF81002AB2D2 /* Foundation.framework */; };
+		A39FB0D018E3FF81002AB2D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39FB0CF18E3FF81002AB2D2 /* CoreGraphics.framework */; };
+		A39FB0D218E3FF81002AB2D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39FB0D118E3FF81002AB2D2 /* UIKit.framework */; };
+		A39FB0D818E3FF82002AB2D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A39FB0D618E3FF82002AB2D2 /* InfoPlist.strings */; };
+		A39FB0DA18E3FF82002AB2D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FB0D918E3FF82002AB2D2 /* main.m */; };
+		A39FB0DE18E3FF82002AB2D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FB0DD18E3FF82002AB2D2 /* AppDelegate.m */; };
+		A39FB0E118E3FF82002AB2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A39FB0DF18E3FF82002AB2D2 /* Main.storyboard */; };
+		A39FB0E418E3FF82002AB2D2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FB0E318E3FF82002AB2D2 /* FirstViewController.m */; };
+		A39FB0E718E3FF82002AB2D2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FB0E618E3FF82002AB2D2 /* SecondViewController.m */; };
+		A39FB0E918E3FF82002AB2D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A39FB0E818E3FF82002AB2D2 /* Images.xcassets */; };
+		A39FB0F018E3FF82002AB2D2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39FB0EF18E3FF82002AB2D2 /* XCTest.framework */; };
+		A39FB0F118E3FF82002AB2D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39FB0CD18E3FF81002AB2D2 /* Foundation.framework */; };
+		A39FB0F218E3FF82002AB2D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39FB0D118E3FF81002AB2D2 /* UIKit.framework */; };
+		A39FB0FA18E3FF82002AB2D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A39FB0F818E3FF82002AB2D2 /* InfoPlist.strings */; };
+		A39FB0FC18E3FF82002AB2D2 /* PullDownTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FB0FB18E3FF82002AB2D2 /* PullDownTests.m */; };
+		A39FB10818E3FFBF002AB2D2 /* PullDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FB10718E3FFBF002AB2D2 /* PullDownViewController.m */; };
+		A39FB10A18E40285002AB2D2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A39FB10918E40285002AB2D2 /* QuartzCore.framework */; };
+		A39FB10E18E41503002AB2D2 /* DemoBackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FB10C18E41503002AB2D2 /* DemoBackViewController.m */; };
+		A39FB10F18E41503002AB2D2 /* DemoBackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A39FB10D18E41503002AB2D2 /* DemoBackViewController.xib */; };
+		A39FB11218E426D0002AB2D2 /* EdgeGestureScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FB11118E426D0002AB2D2 /* EdgeGestureScrollView.m */; };
+		A39FB11518E428BE002AB2D2 /* UIViewController+PullDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A39FB11418E428BE002AB2D2 /* UIViewController+PullDownViewController.m */; };
+		A3FD207918F7E2AA00B0E1A7 /* PopTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FD207818F7E2AA00B0E1A7 /* PopTestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A39FB0F318E3FF82002AB2D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A39FB0C218E3FF81002AB2D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A39FB0C918E3FF81002AB2D2;
+			remoteInfo = PullDown;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3156B2E18E51F6F00482DF3 /* MyPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPanGestureRecognizer.h; sourceTree = "<group>"; };
+		A3156B2F18E51F6F00482DF3 /* MyPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPanGestureRecognizer.m; sourceTree = "<group>"; };
+		A39FB0CA18E3FF81002AB2D2 /* PullDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39FB0CD18E3FF81002AB2D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A39FB0CF18E3FF81002AB2D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A39FB0D118E3FF81002AB2D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A39FB0D518E3FF82002AB2D2 /* PullDown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PullDown-Info.plist"; sourceTree = "<group>"; };
+		A39FB0D718E3FF82002AB2D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A39FB0D918E3FF82002AB2D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A39FB0DB18E3FF82002AB2D2 /* PullDown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PullDown-Prefix.pch"; sourceTree = "<group>"; };
+		A39FB0DC18E3FF82002AB2D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A39FB0DD18E3FF82002AB2D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A39FB0E018E3FF82002AB2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A39FB0E218E3FF82002AB2D2 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A39FB0E318E3FF82002AB2D2 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A39FB0E518E3FF82002AB2D2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A39FB0E618E3FF82002AB2D2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A39FB0E818E3FF82002AB2D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A39FB0EE18E3FF82002AB2D2 /* PullDownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PullDownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39FB0EF18E3FF82002AB2D2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A39FB0F718E3FF82002AB2D2 /* PullDownTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PullDownTests-Info.plist"; sourceTree = "<group>"; };
+		A39FB0F918E3FF82002AB2D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A39FB0FB18E3FF82002AB2D2 /* PullDownTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PullDownTests.m; sourceTree = "<group>"; };
+		A39FB10618E3FFBF002AB2D2 /* PullDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullDownViewController.h; sourceTree = "<group>"; };
+		A39FB10718E3FFBF002AB2D2 /* PullDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullDownViewController.m; sourceTree = "<group>"; };
+		A39FB10918E40285002AB2D2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A39FB10B18E41503002AB2D2 /* DemoBackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoBackViewController.h; sourceTree = "<group>"; };
+		A39FB10C18E41503002AB2D2 /* DemoBackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoBackViewController.m; sourceTree = "<group>"; };
+		A39FB10D18E41503002AB2D2 /* DemoBackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoBackViewController.xib; sourceTree = "<group>"; };
+		A39FB11018E426D0002AB2D2 /* EdgeGestureScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EdgeGestureScrollView.h; sourceTree = "<group>"; };
+		A39FB11118E426D0002AB2D2 /* EdgeGestureScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EdgeGestureScrollView.m; sourceTree = "<group>"; };
+		A39FB11318E428BE002AB2D2 /* UIViewController+PullDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PullDownViewController.h"; sourceTree = "<group>"; };
+		A39FB11418E428BE002AB2D2 /* UIViewController+PullDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PullDownViewController.m"; sourceTree = "<group>"; };
+		A3FD207718F7E2AA00B0E1A7 /* PopTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTestViewController.h; sourceTree = "<group>"; };
+		A3FD207818F7E2AA00B0E1A7 /* PopTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A39FB0C718E3FF81002AB2D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39FB10A18E40285002AB2D2 /* QuartzCore.framework in Frameworks */,
+				A39FB0D018E3FF81002AB2D2 /* CoreGraphics.framework in Frameworks */,
+				A39FB0D218E3FF81002AB2D2 /* UIKit.framework in Frameworks */,
+				A39FB0CE18E3FF81002AB2D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39FB0EB18E3FF82002AB2D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39FB0F018E3FF82002AB2D2 /* XCTest.framework in Frameworks */,
+				A39FB0F218E3FF82002AB2D2 /* UIKit.framework in Frameworks */,
+				A39FB0F118E3FF82002AB2D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A39FB0C118E3FF81002AB2D2 = {
+			isa = PBXGroup;
+			children = (
+				A39FB10518E3FF94002AB2D2 /* Classes */,
+				A39FB0D318E3FF82002AB2D2 /* PullDown */,
+				A39FB0F518E3FF82002AB2D2 /* PullDownTests */,
+				A39FB0CC18E3FF81002AB2D2 /* Frameworks */,
+				A39FB0CB18E3FF81002AB2D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A39FB0CB18E3FF81002AB2D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A39FB0CA18E3FF81002AB2D2 /* PullDown.app */,
+				A39FB0EE18E3FF82002AB2D2 /* PullDownTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A39FB0CC18E3FF81002AB2D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A39FB10918E40285002AB2D2 /* QuartzCore.framework */,
+				A39FB0CD18E3FF81002AB2D2 /* Foundation.framework */,
+				A39FB0CF18E3FF81002AB2D2 /* CoreGraphics.framework */,
+				A39FB0D118E3FF81002AB2D2 /* UIKit.framework */,
+				A39FB0EF18E3FF82002AB2D2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A39FB0D318E3FF82002AB2D2 /* PullDown */ = {
+			isa = PBXGroup;
+			children = (
+				A39FB0DC18E3FF82002AB2D2 /* AppDelegate.h */,
+				A39FB0DD18E3FF82002AB2D2 /* AppDelegate.m */,
+				A39FB0DF18E3FF82002AB2D2 /* Main.storyboard */,
+				A39FB10B18E41503002AB2D2 /* DemoBackViewController.h */,
+				A39FB10C18E41503002AB2D2 /* DemoBackViewController.m */,
+				A39FB10D18E41503002AB2D2 /* DemoBackViewController.xib */,
+				A39FB0E218E3FF82002AB2D2 /* FirstViewController.h */,
+				A39FB0E318E3FF82002AB2D2 /* FirstViewController.m */,
+				A39FB0E518E3FF82002AB2D2 /* SecondViewController.h */,
+				A39FB0E618E3FF82002AB2D2 /* SecondViewController.m */,
+				A3FD207718F7E2AA00B0E1A7 /* PopTestViewController.h */,
+				A3FD207818F7E2AA00B0E1A7 /* PopTestViewController.m */,
+				A39FB0E818E3FF82002AB2D2 /* Images.xcassets */,
+				A39FB0D418E3FF82002AB2D2 /* Supporting Files */,
+			);
+			path = PullDown;
+			sourceTree = "<group>";
+		};
+		A39FB0D418E3FF82002AB2D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39FB0D518E3FF82002AB2D2 /* PullDown-Info.plist */,
+				A39FB0D618E3FF82002AB2D2 /* InfoPlist.strings */,
+				A39FB0D918E3FF82002AB2D2 /* main.m */,
+				A39FB0DB18E3FF82002AB2D2 /* PullDown-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A39FB0F518E3FF82002AB2D2 /* PullDownTests */ = {
+			isa = PBXGroup;
+			children = (
+				A39FB0FB18E3FF82002AB2D2 /* PullDownTests.m */,
+				A39FB0F618E3FF82002AB2D2 /* Supporting Files */,
+			);
+			path = PullDownTests;
+			sourceTree = "<group>";
+		};
+		A39FB0F618E3FF82002AB2D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A39FB0F718E3FF82002AB2D2 /* PullDownTests-Info.plist */,
+				A39FB0F818E3FF82002AB2D2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A39FB10518E3FF94002AB2D2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A39FB10618E3FFBF002AB2D2 /* PullDownViewController.h */,
+				A39FB10718E3FFBF002AB2D2 /* PullDownViewController.m */,
+				A39FB11318E428BE002AB2D2 /* UIViewController+PullDownViewController.h */,
+				A39FB11418E428BE002AB2D2 /* UIViewController+PullDownViewController.m */,
+				A39FB11018E426D0002AB2D2 /* EdgeGestureScrollView.h */,
+				A39FB11118E426D0002AB2D2 /* EdgeGestureScrollView.m */,
+				A3156B2E18E51F6F00482DF3 /* MyPanGestureRecognizer.h */,
+				A3156B2F18E51F6F00482DF3 /* MyPanGestureRecognizer.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A39FB0C918E3FF81002AB2D2 /* PullDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39FB0FF18E3FF82002AB2D2 /* Build configuration list for PBXNativeTarget "PullDown" */;
+			buildPhases = (
+				A39FB0C618E3FF81002AB2D2 /* Sources */,
+				A39FB0C718E3FF81002AB2D2 /* Frameworks */,
+				A39FB0C818E3FF81002AB2D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PullDown;
+			productName = PullDown;
+			productReference = A39FB0CA18E3FF81002AB2D2 /* PullDown.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A39FB0ED18E3FF82002AB2D2 /* PullDownTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A39FB10218E3FF82002AB2D2 /* Build configuration list for PBXNativeTarget "PullDownTests" */;
+			buildPhases = (
+				A39FB0EA18E3FF82002AB2D2 /* Sources */,
+				A39FB0EB18E3FF82002AB2D2 /* Frameworks */,
+				A39FB0EC18E3FF82002AB2D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A39FB0F418E3FF82002AB2D2 /* PBXTargetDependency */,
+			);
+			name = PullDownTests;
+			productName = PullDownTests;
+			productReference = A39FB0EE18E3FF82002AB2D2 /* PullDownTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A39FB0C218E3FF81002AB2D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = lxstudio;
+				TargetAttributes = {
+					A39FB0ED18E3FF82002AB2D2 = {
+						TestTargetID = A39FB0C918E3FF81002AB2D2;
+					};
+				};
+			};
+			buildConfigurationList = A39FB0C518E3FF81002AB2D2 /* Build configuration list for PBXProject "PullDown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A39FB0C118E3FF81002AB2D2;
+			productRefGroup = A39FB0CB18E3FF81002AB2D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A39FB0C918E3FF81002AB2D2 /* PullDown */,
+				A39FB0ED18E3FF82002AB2D2 /* PullDownTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A39FB0C818E3FF81002AB2D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39FB10F18E41503002AB2D2 /* DemoBackViewController.xib in Resources */,
+				A39FB0E918E3FF82002AB2D2 /* Images.xcassets in Resources */,
+				A39FB0D818E3FF82002AB2D2 /* InfoPlist.strings in Resources */,
+				A39FB0E118E3FF82002AB2D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39FB0EC18E3FF82002AB2D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39FB0FA18E3FF82002AB2D2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A39FB0C618E3FF81002AB2D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39FB11518E428BE002AB2D2 /* UIViewController+PullDownViewController.m in Sources */,
+				A39FB10E18E41503002AB2D2 /* DemoBackViewController.m in Sources */,
+				A39FB0E718E3FF82002AB2D2 /* SecondViewController.m in Sources */,
+				A39FB10818E3FFBF002AB2D2 /* PullDownViewController.m in Sources */,
+				A39FB11218E426D0002AB2D2 /* EdgeGestureScrollView.m in Sources */,
+				A39FB0DE18E3FF82002AB2D2 /* AppDelegate.m in Sources */,
+				A39FB0E418E3FF82002AB2D2 /* FirstViewController.m in Sources */,
+				A39FB0DA18E3FF82002AB2D2 /* main.m in Sources */,
+				A3FD207918F7E2AA00B0E1A7 /* PopTestViewController.m in Sources */,
+				A3156B3018E51F6F00482DF3 /* MyPanGestureRecognizer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A39FB0EA18E3FF82002AB2D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A39FB0FC18E3FF82002AB2D2 /* PullDownTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A39FB0F418E3FF82002AB2D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A39FB0C918E3FF81002AB2D2 /* PullDown */;
+			targetProxy = A39FB0F318E3FF82002AB2D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A39FB0D618E3FF82002AB2D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39FB0D718E3FF82002AB2D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A39FB0DF18E3FF82002AB2D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39FB0E018E3FF82002AB2D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A39FB0F818E3FF82002AB2D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A39FB0F918E3FF82002AB2D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A39FB0FD18E3FF82002AB2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A39FB0FE18E3FF82002AB2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A39FB10018E3FF82002AB2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PullDown/PullDown-Prefix.pch";
+				INFOPLIST_FILE = "PullDown/PullDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A39FB10118E3FF82002AB2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PullDown/PullDown-Prefix.pch";
+				INFOPLIST_FILE = "PullDown/PullDown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A39FB10318E3FF82002AB2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PullDown.app/PullDown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PullDown/PullDown-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PullDownTests/PullDownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A39FB10418E3FF82002AB2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PullDown.app/PullDown";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PullDown/PullDown-Prefix.pch";
+				INFOPLIST_FILE = "PullDownTests/PullDownTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A39FB0C518E3FF81002AB2D2 /* Build configuration list for PBXProject "PullDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39FB0FD18E3FF82002AB2D2 /* Debug */,
+				A39FB0FE18E3FF82002AB2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39FB0FF18E3FF82002AB2D2 /* Build configuration list for PBXNativeTarget "PullDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39FB10018E3FF82002AB2D2 /* Debug */,
+				A39FB10118E3FF82002AB2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A39FB10218E3FF82002AB2D2 /* Build configuration list for PBXNativeTarget "PullDownTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39FB10318E3FF82002AB2D2 /* Debug */,
+				A39FB10418E3FF82002AB2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A39FB0C218E3FF81002AB2D2 /* Project object */;
+}
